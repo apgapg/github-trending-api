@@ -63,7 +63,7 @@
     "semantic-release": "^17.0.6"
   },
   "scripts": {
-    "start": "netlify dev",
+    "start": "netlify dev --port 8080",
     "test": "jest --coverage",
     "eslint": "eslint .",
     "validate": "npm-run-all build eslint test",
